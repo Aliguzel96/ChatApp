@@ -1,0 +1,58 @@
+.JoinOuterContainer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    align-items: center;
+    background-color: aqua;
+}
+
+.joinInnerContainer{
+    width: 25%;
+}
+
+.joinInput {
+    border-radius: 0;
+    padding: 15px 20px;
+    width: 100%;
+}
+
+.heading {
+    color:azure;
+    font-size: 3em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 10px;
+    border-bottom: 2px solid azure;
+}
+
+.button{
+    color: indigo;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: lightblue;
+    padding: 25px;
+    border-radius: 6px;
+    display: inline-block;
+    border: none;
+    width: 100%;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .joinOuterContainer {
+      height: 100%;
+    }
+  
+    .joinInnerContainer {
+      width: 90%;
+    }
+  
+  
+  }
+  
+  button:focus {
+    outline: 0;
+  }
+
+.mt-20 {
+    margin-top: 25px;
+}
